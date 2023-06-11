@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#dragElement {
+  width: 100px;
+  height: 50px;
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  cursor: move;
+}
+
+#dropZone {
+  width: 150px;
+  height: 150px;
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  border: 2px dashed #aaa;
+}
+
+.left-container,
+.right-container {
+  flex: 1;
+  height: 200px;
+  padding: 10px;
+}
+
+.left-container {
+  background-color: #ddd;
+}
+
+.right-container {
+  background-color: #eee;
+}
+.dragged-item {
+  opacity: 0.5;
+}
+.hidden {
+  display: none;
+}
